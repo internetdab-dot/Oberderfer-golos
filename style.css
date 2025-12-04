@@ -182,7 +182,7 @@
     margin-bottom: 0;
 }
 
-/* Кнопка */
+/* Кнопка (ОБНОВЛЕННАЯ, КРАСНАЯ) */
 .roi-button-container {
     margin-top: 30px;
     text-align: center;
@@ -192,14 +192,14 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #28a745;
+    background: #d52b1e; /* Официальный красный цвет флага РФ */
     color: white !important;
     text-decoration: none !important;
     font-weight: 600;
     font-size: 16px;
     padding: 16px 32px;
     border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+    box-shadow: 0 4px 15px rgba(213, 43, 30, 0.35);
     transition: all 0.2s ease;
     width: 100%;
     box-sizing: border-box;
@@ -209,8 +209,8 @@
 
 .roi-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
-    background: #218838;
+    box-shadow: 0 6px 20px rgba(213, 43, 30, 0.5);
+    background: #b01f14; /* Темно-красный при наведении */
 }
 
 .roi-btn:active {
